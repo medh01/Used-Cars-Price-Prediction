@@ -21,7 +21,7 @@ def get_the_cars_for_each_page(car_soup):
     car_links = car_soup.find_all("a", class_="occasion-link-overlay", href=True)
     for link in car_links:
         car_url = "https://www.automobile.tn" + link['href']
-        with open('dataset.csv', mode='a', newline='', encoding='utf-8') as file:
+        with open('mockData.csv', mode='a', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
 
             # Use ScraperAPI for the car details page

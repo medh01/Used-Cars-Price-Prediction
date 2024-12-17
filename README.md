@@ -24,3 +24,7 @@ or buyers make informed decisions.</p>
 </ul>
 </li>
 </ul>
+
+-- Mise en circulation float 
+-- pands converting some columns to object
+-- plus de 48 in puissance fiscale
